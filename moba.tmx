@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0.0" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="7110" tileheight="2370" nextobjectid="670">
+ <tileset firstgid="1" name="enemy" tilewidth="30" tileheight="30" spacing="1" margin="1" tilecount="200" columns="10">
+  <image source="enemy.jpg" width="340" height="650"/>
+  <tile id="181">
+   <properties>
+    <property name="id" value="3001"/>
+   </properties>
+  </tile>
+ </tileset>
+ <imagelayer name="fg" y="-23" offsetx="0" offsety="-23">
+  <image source="mapbase/3v3map.jpg" width="2376" height="2395"/>
+ </imagelayer>
+ <imagelayer name="fg2" x="2376" y="-23" offsetx="2376" offsety="-23">
+  <image source="mapbase/3v3map2.jpg" width="2376" height="2395"/>
+ </imagelayer>
+ <imagelayer name="fg3" x="4752" y="-23" offsetx="4752" offsety="-23">
+  <image source="mapbase/3v3map3.jpg" width="2376" height="2395"/>
+ </imagelayer>
+ <objectgroup name="areablock">
+  <object id="362" type="floorNoPass" x="2067.33" y="1527.39" width="585.581" height="212.003"/>
+  <object id="364" type="floorNoPass" x="4469.66" y="1527.39" width="557.67" height="210.525"/>
+  <object id="365" type="platformPass" x="5346.33" y="1333.43" width="340" height="85.4667">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="366" type="platformPass" x="3450" y="1190.15" width="223.545" height="62.5767">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="367" type="platformPass" x="3471.39" y="1459.94" width="175.67" height="56.7867">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="368" type="platformPass" x="1439.33" y="1333.43" width="340" height="75.2967">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="369" type="platformPass" x="1307.33" y="1597.44" width="357" height="79.2867">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="370" type="platformPass" x="2851.33" y="1203.28" width="210.5" height="61.4467">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="371" type="platformPass" x="3143.05" y="1326.72" width="210" height="68.6733">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="372" type="platformPass" x="2806.33" y="1435.26" width="214" height="65.4667">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="373" type="platformPass" x="3138.33" y="1642.4" width="865" height="82.3267">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="375" type="floorNoPass" x="2599" y="1642.4" width="590.323" height="97.7811"/>
+  <object id="376" type="floorNoPass" x="3942.66" y="1642.4" width="800.34" height="102.736"/>
+  <object id="377" type="platformPass" x="4066.33" y="1203.28" width="210.5" height="63.7067">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="378" type="platformPass" x="3777.33" y="1326.72" width="223.83" height="59.34">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="379" type="platformPass" x="4101.33" y="1435.26" width="214" height="59.8067">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="380" type="platformPass" x="5465" y="1597.44" width="356" height="75.5">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="384" type="floorNoPass" x="3366.88" y="1190.15" width="103.12" height="29.5"/>
+  <object id="385" type="floorNoPass" x="3652.5" y="1190.15" width="113.163" height="29.5"/>
+  <object id="386" type="floorNoPass" x="3652.5" y="1190.17" width="53.1633" height="264.891"/>
+  <object id="387" type="floorNoPass" x="3426.41" y="1190.06" width="43.5283" height="261.005"/>
+  <object id="390" type="platformPass" x="1104.33" y="1169.21" width="218" height="67.5167">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="391" type="platformPass" x="5803.08" y="1169.21" width="214.75" height="63.04">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="396" type="floorNoPass" x="4921" y="1242.06" width="261.33" height="412.66"/>
+  <object id="397" type="floorNoPass" x="4918.83" y="1635.88" width="205.5" height="50.92"/>
+  <object id="398" type="floorNoPass" x="1936.95" y="1243.06" width="268.047" height="392.76"/>
+  <object id="399" type="floorNoPass" x="1993.83" y="1635.88" width="207.833" height="62.1791"/>
+  <object id="400" type="floorNoPass" x="1850.41" y="1242.06" width="355.253" height="285.67"/>
+  <object id="401" type="floorNoPass" x="4920.33" y="1242.06" width="357.333" height="290.21"/>
+  <object id="402" type="platformLimit" x="4469.67" y="1050" width="40" height="477.389"/>
+  <object id="403" type="platformLimit" x="2612.91" y="1050" width="40" height="477.402"/>
+  <object id="404" type="grass" x="3953" y="1515.39" width="282.667" height="124.833">
+   <properties>
+    <property name="grassId" value="12"/>
+    <property name="picX" value="3913"/>
+    <property name="picY" value="1494"/>
+   </properties>
+  </object>
+  <object id="405" type="grass" x="2891.66" y="1503.39" width="283.333" height="138.75">
+   <properties>
+    <property name="grassId" value="11"/>
+    <property name="picX" value="2829"/>
+    <property name="picY" value="1496"/>
+   </properties>
+  </object>
+  <object id="406" type="platformLimit" x="3093.33" y="1080" width="43.1359" height="255.728"/>
+  <object id="407" type="platformLimit" x="3994.33" y="1080" width="40" height="256.061"/>
+  <object id="408" type="platformLimit" x="3841.87" y="1385.56" width="40" height="256.833"/>
+  <object id="409" type="platformLimit" x="3246.69" y="1395.39" width="40" height="247.184"/>
+  <object id="418" type="platformLimit" x="3371.66" y="1262.06" width="43.1359" height="67.667"/>
+  <object id="419" type="platformLimit" x="3712.99" y="1265.39" width="43.1359" height="67.667"/>
+  <object id="453" type="platformPass" x="1440" y="999.43" width="4260" height="50.57">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="462" type="platformPass" x="2874.66" y="681.28" width="352.003" height="61.4467">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="463" type="platformPass" x="3903.99" y="681.28" width="352.003" height="61.4467">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="464" type="platformPass" x="2819.99" y="495.947" width="352.003" height="61.4467">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="465" type="platformPass" x="3950.66" y="495.95" width="352.003" height="61.4467">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="466" type="floorNoPass" x="3270" y="361" width="586" height="50.57"/>
+  <object id="467" type="platformPass" x="3328.66" y="800.613" width="480.673" height="61.4467">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="468" type="floorNoPass" x="0" y="0" width="1020" height="990"/>
+  <object id="469" type="floorNoPass" x="1020" y="0" width="90" height="540"/>
+  <object id="470" type="floorNoPass" x="1110" y="0" width="1230" height="90"/>
+  <object id="471" type="floorNoPass" x="1110" y="90" width="360" height="90"/>
+  <object id="472" type="floorNoPass" x="1110" y="180" width="120" height="90"/>
+  <object id="473" type="floorNoPass" x="2400" y="0" width="300" height="540"/>
+  <object id="474" type="floorNoPass" x="2340" y="0" width="60" height="330"/>
+  <object id="475" type="floorNoPass" x="2700" y="0" width="60" height="330"/>
+  <object id="476" type="floorNoPass" x="6120" y="0" width="1020" height="990"/>
+  <object id="477" type="floorNoPass" x="6030" y="0" width="90" height="540"/>
+  <object id="478" type="floorNoPass" x="4800" y="0" width="1230" height="90"/>
+  <object id="480" type="floorNoPass" x="5670" y="90" width="360" height="90"/>
+  <object id="481" type="floorNoPass" x="5910" y="180" width="120" height="90"/>
+  <object id="482" type="floorNoPass" x="4440" y="0" width="300" height="540"/>
+  <object id="483" type="floorNoPass" x="4740" y="0" width="60" height="330"/>
+  <object id="484" type="floorNoPass" x="4380" y="0" width="60" height="330"/>
+  <object id="485" type="platformLimit" x="3210" y="0" width="40" height="335.895"/>
+  <object id="486" type="platformLimit" x="3870" y="0" width="40" height="330.895"/>
+  <object id="502" type="grass" x="3390" y="1080" width="360" height="108.75">
+   <properties>
+    <property name="grassId" value="9"/>
+    <property name="picX" value="3379"/>
+    <property name="picY" value="1063"/>
+   </properties>
+  </object>
+  <object id="503" type="grass" x="3330" y="690" width="480" height="108.75">
+   <properties>
+    <property name="grassId" value="8"/>
+    <property name="picX" value="3303"/>
+    <property name="picY" value="642"/>
+   </properties>
+  </object>
+  <object id="594" type="floorNoPass" x="6564.75" y="1932.95" width="319.554" height="150" rotation="321.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="595" type="floorNoPass" x="5258.78" y="2222.55" width="253.822" height="50" rotation="321.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="597" type="floorNoPass" x="-432" y="1883.4" width="1645.18" height="482.65"/>
+  <object id="598" type="floorNoPass" x="5289.86" y="2261.59" width="253.822" height="150" rotation="321.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="599" type="floorNoPass" x="-600.82" y="1694.4" width="941" height="674.04"/>
+  <object id="600" type="floorNoPass" x="308.98" y="1733.56" width="340.595" height="150" rotation="38.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="601" type="platformPass" x="3277.05" y="1929.28" width="564.77" height="65.12">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="603" type="floorNoPass" x="5692.68" y="2116.34" width="320.059" height="150" rotation="323.273">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="604" type="grass" x="3358.18" y="1802.4" width="402" height="121.333">
+   <properties>
+    <property name="grassId" value="10"/>
+    <property name="picX" value="3294"/>
+    <property name="picY" value="1760"/>
+   </properties>
+  </object>
+  <object id="605" type="floorNoPass" x="1668.18" y="2063.4" width="253.822" height="50" rotation="38.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="606" type="floorNoPass" x="1637.04" y="2102.52" width="253.84" height="150" rotation="38.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="607" type="floorNoPass" x="6784.18" y="1694.4" width="870.64" height="679.76"/>
+  <object id="608" type="floorNoPass" x="1213.18" y="1883.4" width="319.069" height="50" rotation="38.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="609" type="floorNoPass" x="6533.73" y="1896.62" width="320.012" height="50" rotation="321.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="610" type="floorNoPass" x="1182.04" y="1922.55" width="319.032" height="150" rotation="38.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="611" type="floorNoPass" x="340.18" y="1694.4" width="340.52" height="50" rotation="38.5">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="612" type="floorNoPass" x="-152" y="2199.48" width="7392" height="172.92"/>
+  <object id="613" type="floorNoPass" x="5913.18" y="1883.4" width="1622.82" height="490.95"/>
+  <object id="614" type="floorNoPass" x="5456.42" y="2063.49" width="1951.58" height="311.89"/>
+  <object id="615" type="floorNoPass" x="5659.79" y="2081.76" width="320.012" height="50" rotation="322.947">
+   <properties>
+    <property name="floorType" value="1"/>
+   </properties>
+  </object>
+  <object id="616" type="floorNoPass" x="-240" y="2063.4" width="1908.18" height="305.26"/>
+  <object id="617" type="floorNoPass" x="3138.38" y="1642.36" width="51.0047" height="82.5121"/>
+  <object id="618" type="floorNoPass" x="3942.66" y="1642.41" width="60.7188" height="81.5998"/>
+  <object id="664" type="floorNoPass" x="545.83" y="1426.3" width="465" height="60">
+   <properties>
+    <property name="layerId" value="1"/>
+   </properties>
+  </object>
+  <object id="665" type="floorNoPass" x="6119" y="1426.3" width="466" height="60"/>
+  <object id="666" type="floorNoPass" x="2700" y="0" width="1679.96" height="10"/>
+ </objectgroup>
+ <objectgroup name="enemy">
+  <object id="500" name="monBorn2" gid="2" x="4770" y="1440" width="30" height="30">
+   <properties>
+    <property name="id" value="10022"/>
+   </properties>
+  </object>
+  <object id="501" name="monBorn2" gid="2" x="4770" y="1440" width="30" height="30">
+   <properties>
+    <property name="id" value="10021"/>
+   </properties>
+  </object>
+  <object id="546" name="arena0" gid="1" x="108.667" y="1652.67" width="30" height="30"/>
+  <object id="547" name="monBorn0" gid="2" x="1058.71" y="1830.67" width="30" height="30">
+   <properties>
+    <property name="id" value="10008"/>
+   </properties>
+  </object>
+  <object id="548" name="arena0" gid="1" x="198.667" y="1652.67" width="30" height="30"/>
+  <object id="549" name="relife0" gid="3" x="180.565" y="1592.67" width="30" height="30"/>
+  <object id="550" name="monBorn0" gid="2" x="1108.71" y="1830.67" width="30" height="30">
+   <properties>
+    <property name="id" value="10023"/>
+   </properties>
+  </object>
+  <object id="551" name="monBorn0" gid="2" x="1158.71" y="1830.67" width="30" height="30">
+   <properties>
+    <property name="id" value="10007"/>
+   </properties>
+  </object>
+  <object id="552" name="mon0" gid="4" x="888.667" y="1832.67" width="30" height="30">
+   <properties>
+    <property name="id" value="10003"/>
+   </properties>
+  </object>
+  <object id="553" name="arena0" gid="1" x="288.667" y="1652.67" width="30" height="30"/>
+  <object id="554" name="monBorn0" gid="2" x="1008.71" y="1830.67" width="30" height="30">
+   <properties>
+    <property name="id" value="10009"/>
+   </properties>
+  </object>
+  <object id="555" name="mon0" gid="4" x="167.231" y="1463.77" width="30" height="30">
+   <properties>
+    <property name="id" value="10001"/>
+   </properties>
+  </object>
+  <object id="556" name="monBorn0" gid="2" x="1470" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10044"/>
+   </properties>
+  </object>
+  <object id="557" name="monBorn0" gid="2" x="1520" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10043"/>
+   </properties>
+  </object>
+  <object id="558" name="monBorn0" gid="2" x="1570" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10045"/>
+   </properties>
+  </object>
+  <object id="559" name="monBorn0" gid="2" x="1620" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10042"/>
+   </properties>
+  </object>
+  <object id="560" name="mon0" gid="4" x="2566" y="965" width="30" height="30">
+   <properties>
+    <property name="id" value="10035"/>
+   </properties>
+  </object>
+  <object id="561" name="monBorn2" gid="2" x="2340" y="1440" width="30" height="30">
+   <properties>
+    <property name="id" value="10031"/>
+   </properties>
+  </object>
+  <object id="562" name="monBorn2" gid="2" x="2737.67" y="1564.77" width="30" height="30">
+   <properties>
+    <property name="id" value="10012"/>
+   </properties>
+  </object>
+  <object id="563" name="monBorn2" gid="2" x="2340" y="1440" width="30" height="30">
+   <properties>
+    <property name="id" value="10030"/>
+   </properties>
+  </object>
+  <object id="564" name="monBorn2" gid="2" x="3300" y="1289.1" width="30" height="30">
+   <properties>
+    <property name="id" value="10011"/>
+   </properties>
+  </object>
+  <object id="565" name="mon1" gid="4" x="4560.1" y="960" width="30" height="30">
+   <properties>
+    <property name="id" value="10036"/>
+   </properties>
+  </object>
+  <object id="567" name="monBorn2" gid="2" x="4380" y="1560" width="30" height="30">
+   <properties>
+    <property name="id" value="10020"/>
+   </properties>
+  </object>
+  <object id="568" name="monBorn2" gid="2" x="3810" y="1289.1" width="30" height="30">
+   <properties>
+    <property name="id" value="10019"/>
+   </properties>
+  </object>
+  <object id="570" name="monBorn2" gid="2" x="3540" y="240" width="30" height="30">
+   <properties>
+    <property name="id" value="10033"/>
+   </properties>
+  </object>
+  <object id="571" name="monBorn2" gid="2" x="3540" y="240" width="30" height="30">
+   <properties>
+    <property name="id" value="10034"/>
+   </properties>
+  </object>
+  <object id="572" name="monBorn2" gid="2" x="3540" y="240" width="30" height="30">
+   <properties>
+    <property name="id" value="10032"/>
+   </properties>
+  </object>
+  <object id="579" name="monBorn1" gid="2" x="5970.18" y="1831.43" width="30" height="30">
+   <properties>
+    <property name="id" value="10038"/>
+   </properties>
+  </object>
+  <object id="580" name="monBorn1" gid="2" x="6070.18" y="1831.43" width="30" height="30">
+   <properties>
+    <property name="id" value="10039"/>
+   </properties>
+  </object>
+  <object id="581" name="monBorn1" gid="2" x="6020.18" y="1831.43" width="30" height="30">
+   <properties>
+    <property name="id" value="10041"/>
+   </properties>
+  </object>
+  <object id="582" name="mon1" gid="4" x="6240.23" y="1833.43" width="30" height="30">
+   <properties>
+    <property name="id" value="10003"/>
+   </properties>
+  </object>
+  <object id="583" name="monBorn1" gid="2" x="6120.18" y="1831.43" width="30" height="30">
+   <properties>
+    <property name="id" value="10040"/>
+   </properties>
+  </object>
+  <object id="584" name="arena1" gid="1" x="6839.9" y="1653.1" width="30" height="30"/>
+  <object id="585" name="arena1" gid="1" x="6929.9" y="1653.1" width="30" height="30"/>
+  <object id="586" name="relife1" gid="3" x="6929.9" y="1593.1" width="30" height="30"/>
+  <object id="587" name="arena1" gid="1" x="7019.9" y="1653.1" width="30" height="30"/>
+  <object id="588" name="mon1" gid="4" x="6961.9" y="1463.1" width="30" height="30">
+   <properties>
+    <property name="id" value="10002"/>
+   </properties>
+  </object>
+  <object id="589" name="monBorn1" gid="2" x="5490" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10046"/>
+   </properties>
+  </object>
+  <object id="590" name="monBorn1" gid="2" x="5540" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10049"/>
+   </properties>
+  </object>
+  <object id="591" name="monBorn1" gid="2" x="5590" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10047"/>
+   </properties>
+  </object>
+  <object id="592" name="monBorn1" gid="2" x="5640" y="930" width="30" height="30">
+   <properties>
+    <property name="id" value="10048"/>
+   </properties>
+  </object>
+  <object id="662" name="mon0" gid="4" x="2567.1" y="2166" width="30" height="30">
+   <properties>
+    <property name="id" value="10005"/>
+   </properties>
+  </object>
+  <object id="663" name="mon1" gid="4" x="4558.9" y="2166" width="30" height="30">
+   <properties>
+    <property name="id" value="10006"/>
+   </properties>
+  </object>
+  <object id="667" name="monBorn2" gid="2" x="3540" y="240.25" width="30" height="30">
+   <properties>
+    <property name="id" value="10053"/>
+   </properties>
+  </object>
+  <object id="668" name="monBorn2" gid="2" x="3540.5" y="240.5" width="30" height="30">
+   <properties>
+    <property name="id" value="10054"/>
+   </properties>
+  </object>
+  <object id="669" name="monBorn2" gid="2" x="3540.75" y="240.5" width="30" height="30">
+   <properties>
+    <property name="id" value="10055"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
