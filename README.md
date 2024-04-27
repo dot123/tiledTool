@@ -1,3 +1,3 @@
 # tiledTool
 
-将tmx文件解析生成json文件
+将TitleMap的tmx文件解析生成json文件
